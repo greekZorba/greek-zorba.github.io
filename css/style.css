@@ -1949,10 +1949,8 @@ a:hover .de-icon.effect3{
 /* 09.1 Image 									 */
 /* ----------------------------------------------*/
 .photo-item img {
-    /*width:100%;*/
     width:100px;
     height: 100px;
-    border-radius: 100%;
     padding: 1rem;
     margin: auto;
     display: block;
