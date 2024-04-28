@@ -265,7 +265,7 @@ p{
     font-family: 'Arvo','Noto Sans KR', serif;
     font-size:15px;
     line-height:26px;
-    margin-bottom:25px;
+    margin-bottom:15px;
 }
 
 p.lead{
@@ -2688,6 +2688,9 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 14.2 Couple Section							 */
 /* ----------------------------------------------*/
+#joke{
+    padding: 140px 0
+}
 .his-her-name{
     position:relative;
     background-color: white;
@@ -2830,14 +2833,10 @@ footer .image-divider.fixed-height{
 }
 
 /* ----------------------------------------------*/
-/* 14.5 Gallery Section							 */
+/* 14.5 Joke Section							 */
 /* ----------------------------------------------*/
-#gallery-section{
+#joke{
     padding: 140px 0
-}
-
-#gallery-section .photo-item{
-    margin-bottom:30px;
 }
 
 /* ----------------------------------------------*/
@@ -3601,7 +3600,7 @@ button.mfp-close, button.mfp-arrow {
         /* 14.3 Our Story Section						 */
         /* ----------------------------------------------*/
         #our-story {
-            padding: 60px 0
+            padding: 40px 0
         }
 
         #end-of-story {
@@ -3612,14 +3611,14 @@ button.mfp-close, button.mfp-arrow {
         /* 14.4 Where When Section						 */
         /* ----------------------------------------------*/
         #where-when {
-            padding: 60px 0
+            padding: 20px 0
         }
 
         /* ----------------------------------------------*/
-        /* 14.5 Gallery Section							 */
+        /* 14.5 Joke Section							 */
         /* ----------------------------------------------*/
-        #gallery-section {
-            padding: 80px 0
+        #joke {
+            padding: 0 0 100px 0;
         }
 
         /* ----------------------------------------------*/
