@@ -2637,29 +2637,6 @@ footer .image-divider.fixed-height{
 }
 
 /* ----------------------------------------------*/
-/* 13.2 RSVP-2 Page				 			 	 */
-/* ----------------------------------------------*/
-.rsvp-wrapper{
-    padding:35px 20px 20px 25px;
-    border:1px solid #cccccc;
-    border-radius:10px;
-}
-
-/* ----------------------------------------------*/
-/* 13.3 Bridesmaid Page				 			 */
-/* ----------------------------------------------*/
-.bridesmaid-wrapper{
-    margin-bottom:40px;
-}
-
-/* ----------------------------------------------*/
-/* 13.4 Groomsmen Page				 			 */
-/* ----------------------------------------------*/
-.groomsmen-wrapper{
-    margin-bottom:40px;
-}
-
-/* ----------------------------------------------*/
 /* 13.5 Blog Page				 			 	 */
 /* ----------------------------------------------*/
 .blog-wrapper{
@@ -2688,9 +2665,6 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 14.2 Couple Section							 */
 /* ----------------------------------------------*/
-#joke{
-    padding: 140px 0
-}
 .his-her-name{
     position:relative;
     background-color: white;
@@ -2812,6 +2786,21 @@ footer .image-divider.fixed-height{
 }
 
 /* ----------------------------------------------*/
+/* 14.3 Bank Account Section						 */
+/* ----------------------------------------------*/
+#bank-account {
+    padding: 100px 0;
+}
+
+.bank-account-description {
+    padding: 20px;
+}
+
+.bank-account-number {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------*/
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
 #where-when{
@@ -2830,13 +2819,6 @@ footer .image-divider.fixed-height{
 #map-canvas{
     height:560px;
     width:100%;
-}
-
-/* ----------------------------------------------*/
-/* 14.5 Joke Section							 */
-/* ----------------------------------------------*/
-#joke{
-    padding: 140px 0
 }
 
 /* ----------------------------------------------*/
@@ -2889,43 +2871,6 @@ h2#dont-miss-it-title{
 #events-carousel .item{
     padding:20px;
     margin-bottom:10px;
-}
-
-/* ----------------------------------------------*/
-/* 14.8 Groomsmen Section						 */
-/* ----------------------------------------------*/
-#groomsmen-section{
-    padding: 140px 0
-}
-
-.groomsmen-item{
-    margin-bottom:60px;
-}
-
-/* ----------------------------------------------*/
-/* 14.9 Bridesmaid Section						 */
-/* ----------------------------------------------*/
-#bridesmaid-section{
-    padding: 140px 0
-}
-
-.bridesmaid-item{
-    margin-bottom:60px;
-}
-
-/* ----------------------------------------------*/
-/* 14.10 Gift Section							 */
-/* ----------------------------------------------*/
-#gift-section{
-    padding: 140px 0;
-    background-color:#FFF
-}
-
-/* ----------------------------------------------*/
-/* 14.11 RSVP Section							 */
-/* ----------------------------------------------*/
-#rsvp-section{
-    padding: 140px 0
 }
 
 
@@ -3615,6 +3560,13 @@ button.mfp-close, button.mfp-arrow {
         }
 
         /* ----------------------------------------------*/
+        /* 14.5 Bank Account Section						 */
+        /* ----------------------------------------------*/
+        #bank-account {
+            padding: 20px 0
+        }
+
+        /* ----------------------------------------------*/
         /* 14.6 Don't Miss It / Countdown Section		 */
         /* ----------------------------------------------*/
         .circle-countdown .countdown-amount {
@@ -3652,21 +3604,6 @@ button.mfp-close, button.mfp-arrow {
         #bridesmaid-section {
             padding: 80px 0
         }
-
-        /* ----------------------------------------------*/
-        /* 14.10 Gift Section							 */
-        /* ----------------------------------------------*/
-        #gift-section {
-            padding: 80px 0;
-        }
-
-        /* ----------------------------------------------*/
-        /* 14.11 RSVP Section							 */
-        /* ----------------------------------------------*/
-        #rsvp-section {
-            padding: 80px 0
-        }
-
     }
 
 
