@@ -2704,21 +2704,17 @@ footer .image-divider.fixed-height{
     padding: 80px 0
 }
 
-.story-row.row {
-    display: table;
-    padding:50px 0;
-    position:relative;
+.timeline-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    pointer-events: none;
 }
 
-.story-row.row [class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: middle;
+.timeline-heading-with-img {
+    margin-top:1em;
 }
 
-.story-date-wrapper{
-    z-index:1;
-}
 
 .story-date{
     float:left;
@@ -3336,7 +3332,6 @@ button.mfp-close, button.mfp-arrow {
     .vertical-line {
         display: none;
     }
-
 
     /* ----------------------------------------------*/
     /* 14.4 Where When Section						 */
